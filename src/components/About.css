@@ -1,0 +1,24 @@
+
+
+.img {
+  height: 50vh;
+  width: 50vh;
+  margin-left: 10px;
+}
+
+.details{
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .img {
+    height: 37vh !important;
+    margin-left: 12px;
+    width: 37vh !important;
+  }
+  .details {
+    margin-top: 0px;
+    padding-top: 33vh !important;
+  }   
+} 
