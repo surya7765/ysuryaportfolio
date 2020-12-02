@@ -12,6 +12,7 @@ import Skills from './Skills';
 export default function Project() {
 
   return (
+    <>
     <div className="container">
       <CssBaseline />
       <Container maxWidth="lg" style={{marginTop:'30px', paddingBottom:'30px'}}>
@@ -21,8 +22,10 @@ export default function Project() {
           </Typography>
               <Cards />
         </Typography>
-        <Skills />
+        
       </Container>
     </div>
+    <Skills />
+    </>
   );
 }
