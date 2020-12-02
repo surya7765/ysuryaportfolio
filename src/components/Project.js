@@ -20,8 +20,8 @@ export default function Project() {
             Projects
           </Typography>
               <Cards />
-              <Skills />
         </Typography>
+        <Skills />
       </Container>
     </div>
   );
