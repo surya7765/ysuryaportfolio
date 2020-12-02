@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Switch, Route, Redirect, Link} from 'react-rout
 import Home from './components/pages/Home';
 import About from './components/About';
 import Projects from './components/Project';
-import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 
 
@@ -18,7 +18,7 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/about' exact component={About}/>
           <Route path='/projects' exact component={Projects}/>
-          <Route path='/contact' exact component={Skills}/>
+          <Route path='/contact' exact component={Footer}/>
           <Link to="https://suryablog.herokuapp.com/"/>
           <Redirect to="/"/>
         </Switch>
