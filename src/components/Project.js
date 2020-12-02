@@ -4,6 +4,8 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import './Project.css';
 import Cards from './Cards';
+import Skills from './Skills';
+
 
 
 
@@ -18,6 +20,7 @@ export default function Project() {
             Projects
           </Typography>
               <Cards />
+              <Skills />
         </Typography>
       </Container>
     </div>
